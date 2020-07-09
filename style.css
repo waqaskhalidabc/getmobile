@@ -40,10 +40,10 @@ div.a form.n1 button{
   height: 60px;
     overflow: visible;
     background-color: rgb(206, 203, 224);
+    position: fixed;
+    top: 0;
     
-    
-    
-margin-left: 0;
+    z-index: 1
 
 }
 .searchdiv img{
@@ -54,10 +54,17 @@ width: 50px;
   }
   
   body img{
-    margin-top: 20;
-    float: left;
-  width: 50px;
     
+    float: left;
+  width: 150px;
+  height: 130px;
+    
+    }
+    .logo{
+
+      width: 50px;
+      height: 50px;
+      
     }
 .Searchdiv input {
     padding-left: 40;
@@ -112,9 +119,12 @@ background-color: turquoise;
 }
 
 .topnav {
+  margin-top: 60px;
   width: 100%;
   overflow: hidden;
   background-color: rgb(55, 194, 0);
+  
+
 }
 
 .searchtopnav input{
@@ -122,10 +132,7 @@ background-color: turquoise;
 padding: 202px;
 
 }
-.topnav{
-padding: 14px,0px
-  padding-left: ;
-}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -160,15 +167,23 @@ padding: 14px,0px
 .sidenav {
   width: 200px;
  
-  z-index: 1;
+  z-index: -1;
   position: absolute ;
-  top: 250px;
+  top: 200px;
  
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
+  border-radius: 2px;
+  
 }
 
+.ab {
+
+background-color: rgb(32, 102, 116);
+
+
+}
 .sidenav a {
   padding: 10px 40px 10px 30px;
   text-decoration: none;
@@ -176,7 +191,9 @@ padding: 14px,0px
   font-weight: 700;
   color: #2196F3;
   display: block;
+ 
 }
+
 
 .sidenav .dropdown-content1 a,.sidenav .dropdown-content2 a,
 .sidenav .dropdown-content3 a,.sidenav .dropdown-content4 a{
@@ -198,6 +215,7 @@ width: 150px;
 border-style: inset;
 border-width: 5px;
 padding: 35px 25px;
+border-radius: 20px;
 
 
 }
@@ -253,8 +271,45 @@ margin bottom: ;
           }
       
 
+.card{
+height: 250px;
+background-color:rgb(84, 126, 155);
 
-
+  position: absolute;
+top: 200px;
+right:0px;
+width:27%
+}
+.card1{
+  height: 250px;
+  background-color: rgb(84, 126, 155);
+  
+    position: absolute;
+  top:500px;
+  right:0px;
+  width:27%
+  }
+  .card2{
+    height: 250px;
+    background-color: rgb(84, 126, 155);
+    
+      position: absolute;
+    top:800px;
+    right:0px;
+    width:27%
+    }
+.card img{
+  width: 300px;
+  height: 200px;
+  }
+  .card1 img{
+    width: 300px;
+    height: 200px;
+    }
+    .card2 img{
+      width: 300px;
+      height: 200px;
+      }
 .end-box {
     padding:20px;
      color:#fff;
