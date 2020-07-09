@@ -1,12 +1,15 @@
 
 body {
+  
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('phones.jpg');
   background-repeat: no-repeat;
   background-position-x: right;
-  background-size: 100%;
+  background-size: cover;
   position: relative;
+  
+
 }
 
 .disptext {
