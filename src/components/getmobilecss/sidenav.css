@@ -1,0 +1,40 @@
+.sidenav {
+    width: 200px;
+   
+    
+    position: absolute ;
+    top: 250px;
+   
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 2px;
+    
+  }
+
+
+  .sidenav a {
+    padding: 10px 40px 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2196F3;
+    display: block;
+   
+  }
+
+  
+.sidenav .dropdown-content1 a,.sidenav .dropdown-content2 a,
+.sidenav .dropdown-content3 a,.sidenav .dropdown-content4 a{
+font-size: 15px;
+font-weight: 300;
+
+}
+
+.ab {
+
+    background-color: rgb(32, 102, 116);
+    
+    
+    }
+

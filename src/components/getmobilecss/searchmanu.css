@@ -1,0 +1,30 @@
+.searchmanu {
+
+   
+width: 100%;
+  height: 60px;
+    overflow: visible;
+    background-color: rgb(206, 203, 224);
+    position: fixed;
+    top: 0;
+    
+    z-index: 1
+
+}
+.searchmanu img{
+    margin-top: 0px;
+    float: left;
+  width: 50px;
+  
+   height: 50px
+ 
+}
+.btnlogin{
+    float: right;
+    margin-right: 10px;
+    background-color: turquoise;
+  width: 70px;
+  height: 35px;
+   
+ 
+}
