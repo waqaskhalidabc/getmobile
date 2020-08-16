@@ -107,6 +107,7 @@ console.log(location.waqas);
 {   loginService.isAdmin()?  <button className={classes.btn} style={{backgroundColor:'red',marginRight:'30px'}} onClick={()=>{
 productService.deleteProduct(id).then(()=>{
     window.location.href = "/";
+    alert("product deleted");
 }).catch((err)=>{
     alert(err.message);
 });

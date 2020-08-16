@@ -151,6 +151,7 @@ const id=props.match.params.id;
 {   loginService.isAdmin()?  <button className={classes.btn} style={{backgroundColor:'yellow',float:'right',marginTop:'30px'}} onClick={()=>{
 productService.updateProduct(id,{title,price,ram,description,contact}).then(()=>{
     window.location.href = "/";
+    alert("product updated");
 }).catch((err)=>{
     alert("invalid entries");
 });
