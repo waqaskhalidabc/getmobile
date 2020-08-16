@@ -152,7 +152,7 @@ const id=props.match.params.id;
 productService.updateProduct(id,{title,price,ram,description,contact}).then(()=>{
     window.location.href = "/";
 }).catch((err)=>{
-    alert(err.message);
+    alert("invalid entries");
 });
 }}>update</button>: undefined }
         

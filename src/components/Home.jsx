@@ -65,7 +65,7 @@ const Home = () => {
 
 
 
-<Sidenav/>
+
 <Login/>
 <AdSpace/>
 

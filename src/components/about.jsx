@@ -25,9 +25,17 @@ const aboutUs = () => {
         <div className={classes.hero}>
               <Searchmanu/>
     <Topmanu/>
-            
-            
-            <h1  style={{float:'left',marginLeft:'40%'}}>About Us</h1 ></div>
+    <h1  style={{float:'left',marginLeft:'40%'}}>About Us</h1 >
+            <br></br><br></br>
+            <h2 style={{float:'left',marginLeft:'33%'}}>About getMobile Pakistan: </h2><br></br><br></br>
+<div style={{float:'left',marginLeft:'30%'}}>
+    <br></br><h5>GetMobile Pakistan is the premium website started in 2020, <br></br>
+dedicated to providing expert tips, news, reviews, Android <br></br>
+Phones, Android   Apps, iphone, Android   Tablet,  used   mobiles,  <br></br>
+comparison of mobiles, mobile shops, mobile wallpapers, <br></br>
+cryptocurrency, videos and blog
+  </h5></div>
+            </div>
      );
 }
  
