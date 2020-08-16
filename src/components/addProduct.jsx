@@ -40,7 +40,7 @@ const AddProduct = (props) => {
       <Grid item xs={3}></Grid>
       <Grid item xs={6}>
         <TextField
-          label="Name and brand"
+          label="Name and brand (min 3 characters required)"
           fullWidth
           
           onChange={(e) => {
@@ -49,7 +49,7 @@ const AddProduct = (props) => {
           }}
         />
         <TextField
-          label="Set Price"
+          label="Set Price (only number)"
           fullWidth
           
           onChange={(e) => {
@@ -59,7 +59,7 @@ const AddProduct = (props) => {
           }}
         />
         <TextField
-          label="Ram"
+          label="Ram (required)"
           fullWidth
           
           onChange={(e) => {
@@ -77,7 +77,7 @@ const AddProduct = (props) => {
           }}
         />
         <TextField
-          label="Contact"
+          label="Contact (min 11 digit required)"
           fullWidth
           
           onChange={(e) => {

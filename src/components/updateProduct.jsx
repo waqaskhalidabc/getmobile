@@ -102,7 +102,7 @@ const id=props.match.params.id;
             }}
           />
 
-<h5 style={{color:'#691394'}}>Price: </h5>
+<h5 style={{color:'#691394'}}>Price: (number)</h5>
 <TextField
             
             style={{ marginRight: "10px" }}
@@ -137,7 +137,7 @@ const id=props.match.params.id;
 
 
 
-<h5 style={{color:'#691394'}}>Contact:</h5>
+<h5 style={{color:'#691394'}}>Contact:(11 digit)</h5>
 <TextField
             
             style={{ marginRight: "10px" }}
