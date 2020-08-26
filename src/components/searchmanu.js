@@ -10,7 +10,7 @@ const searchmanu = () => {
     var title="this is title";
     return ( 
       
-<div class="searchmanu" >
+<div class="searchmanu" style={{height:"55px"}}>
 
 <img src="/images/Capture.jpg"   alt="logoimg">
 

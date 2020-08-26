@@ -1,5 +1,4 @@
 import React from "react"
-//import ReactDOM from 'react-dom';
 import { Link } from "react-router-dom";
 
 import { Grid, useStyles, makeStyles } from "@material-ui/core";
@@ -17,7 +16,7 @@ const useStyle=makeStyles({
 
 
 hero :{
-    backgroundImage: "url(../images/phones.jpg)",
+    backgroundImage: "url(https://fsb.zobj.net/crop.php?r=7T_k_8Qx1HmDZyLB_fmwqbAqb3g-S6w5_qwCNGhyqt1SA95Y7EUsALEJa8S2qZ2huuo_LIpRF9AZw6wvZkZZODVGpxO5_1zYyZ25wvbZYptbDUK6qGBsXS5HhpKR5jvhb7vgONlgcQOUgsBN)",
 height:"1500px", 
 backgroundSize:"cover",
 backgroundPosition: "center",

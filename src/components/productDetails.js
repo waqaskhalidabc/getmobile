@@ -1,7 +1,7 @@
 import React from "react";
 import Searchmanu from "../components/searchmanu"
 import Topmanu from "../components/topmanu";
-import { Grid, useStyles, makeStyles } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import productService from "./../services/ProductsService";
 import loginService from "./../services/loginService";
 import { Link } from "react-router-dom";
@@ -118,7 +118,6 @@ productService.deleteProduct(id).then(()=>{
 
 <Link to={{ pathname: `/updateProduct/${id}`, ali: props }}>
 <button className={classes.btn} style={{backgroundColor:'yellow'}} onClick={()=>{
-    //window.location.href ={ pathname: `/productDetails/${id}`, waqas: props };
 
 }}>update</button></Link>: undefined }
 

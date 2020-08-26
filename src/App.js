@@ -1,14 +1,9 @@
 import React from "react";
-//import { Grid, makeStyles } from "@material-ui/core";
-//import Model from "react-model";
-//import Topmanu from "./components/topmanu";
-
 import Home from "./components/Home";
 import AddProduct from "./components/addProduct";
 import ProductDetails from "./components/productDetails";
 import UpdateProduct from "./components/updateProduct";
 import AboutUs from "./components/about";
-//import AdSpace from "./components/adSpace" 
 import './App.css';
 import {
   BrowserRouter as Router,

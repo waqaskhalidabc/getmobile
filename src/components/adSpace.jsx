@@ -17,8 +17,8 @@ const useStyle=makeStyles({
 hero :{
 
 display : "flex",
-width : "750px",
-height : "800px",
+width : "850px",
+height : "900px",
 float:"right",
 marginRight:"20%",
 marginTop: "120px",
@@ -31,10 +31,6 @@ overflowY:"auto",
 })
 
 
-
-
-
-//$("abc").append('kajkjl')
 const Home = () => {
     const [products, setProducts] = React.useState([]);
     //get function

@@ -10,7 +10,7 @@ import { faCoffee,faCode,faCut,faWindowClose } from '@fortawesome/free-solid-svg
 
 const btnstyle = {
   position: "absolute",
-  top: "15px",
+  top: "10px",
   right: "10px",
   backgroundColor: "orange" /* Green */,
   border: "none",

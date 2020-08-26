@@ -11,10 +11,10 @@ const useStyle = makeStyles({
   hero: {
     width: "200px",
     height: "270px",
-    backgroundColor: "gray",
+    backgroundColor: "#e1e8e3",
     overflow: "hidden",
     borderRadius: "10px",
-    marginLeft: "33px",
+    marginLeft: "60px",
     marginTop: "30px",
   },
 
